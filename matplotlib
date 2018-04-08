@@ -1,3 +1,4 @@
+--->matplotlib (如圖1-3)
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -17,4 +18,15 @@ from matplotlib.image import imread
 img = imread('../Deep/dataset/lena.png') 
 plt.imshow(img)
 
+plt.show()
+
+--->繪製sin (如圖)
+# coding: utf-8
+import numpy as np
+import matplotlib.pyplot as plt
+
+x = np.arange(0, 6, 0.1) 
+y = np.sin(x)
+
+plt.plot(x, y)
 plt.show()
