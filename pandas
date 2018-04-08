@@ -1,9 +1,11 @@
 ## 從...導入...
 from pandas import Series
 
+## 先建立一個list
+a = [1, 2, 3, 4]
+
 ## 序列化索引
 s = Series(a)
-s
 
 ## 索引用法
 s.index
