@@ -1,4 +1,4 @@
---->matplotlib (如圖1-3)
+# matplotlib (如圖1-3)
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -8,9 +8,9 @@ plt.plot(a,b)
 
 plt.plot(a,b,'*') """可換成點方式呈現"""
 
---->insow (如圖)
-# coding: utf-8
-# img_show.py
+# insow (如圖)
+#coding: utf-8
+#img_show.py
 
 import matplotlib.pyplot as plt
 from matplotlib.image import imread
@@ -20,8 +20,8 @@ plt.imshow(img)
 
 plt.show()
 
---->繪製sin (如圖)
-# coding: utf-8
+# 繪製sin (如圖)
+#coding: utf-8
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -31,8 +31,8 @@ y = np.sin(x)
 plt.plot(x, y)
 plt.show()
 
---->繪製sin有圖示及標體 (如圖)
-# coding: utf-8
+# 繪製sin有圖示及標體 (如圖)
+#coding: utf-8
 import numpy as np
 import matplotlib.pyplot as plt
 
