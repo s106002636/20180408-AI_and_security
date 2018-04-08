@@ -10,3 +10,4 @@ df.to_csv('df_io.csv',index=False)
 
 # 轉成json
 df_json = df.to_json()
+
