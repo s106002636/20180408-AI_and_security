@@ -1,4 +1,8 @@
 # AI_and_security
+使用jupyter:http://nbviewer.jupyter.org/
+
+在你的目錄底下啟動jupyter==>jupyter notebook
+
 完成安裝anaconda==>裝在D槽
 
 測試是否成功:D:\anaconda3\scripts\conda (如圖conda)
